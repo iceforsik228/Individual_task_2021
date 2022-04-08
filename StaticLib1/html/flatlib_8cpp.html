@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Lib Project: Файл flatlib.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Lib Project<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Библиотека индивидуального задания</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Макросы</a> &#124;
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle"><div class="title">Файл flatlib.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Файл cpp, который отвечает за чтение файла home.txt.  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;assert.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="flat_8h_source.html">flat.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для flatlib.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="flatlib_8cpp__incl.png" border="0" usemap="#aflatlib_8cpp" alt=""/></div>
+<map name="aflatlib_8cpp" id="aflatlib_8cpp">
+<area shape="rect" title="Файл cpp, который отвечает за чтение файла home.txt." alt="" coords="141,5,219,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,77,107"/>
+<area shape="rect" title=" " alt="" coords="102,80,167,107"/>
+<area shape="rect" title=" " alt="" coords="192,80,261,107"/>
+<area shape="rect" href="flat_8h.html" title="Файл h, который отвечает объявление структуры и переменных для хранения информации из файла home...." alt="" coords="285,80,336,107"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Макросы</h2></td></tr>
+<tr class="memitem:af08ec37a8c99d747fb60fa15bc28678b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flatlib_8cpp.html#af08ec37a8c99d747fb60fa15bc28678b">_CRT_SECURE_NO_WARNINGS</a></td></tr>
+<tr class="separator:af08ec37a8c99d747fb60fa15bc28678b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:ac7d3b785835ebb853bfd261fa19d9de7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flatlib_8cpp.html#ac7d3b785835ebb853bfd261fa19d9de7">numberFlatsInput</a> ()</td></tr>
+<tr class="memdesc:ac7d3b785835ebb853bfd261fa19d9de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция для получения количества квартир в доме  <a href="flatlib_8cpp.html#ac7d3b785835ebb853bfd261fa19d9de7">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac7d3b785835ebb853bfd261fa19d9de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84f04ebe1e94d3cfa48705b401057ded"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flatlib_8cpp.html#a84f04ebe1e94d3cfa48705b401057ded">allSquareInput</a> ()</td></tr>
+<tr class="memdesc:a84f04ebe1e94d3cfa48705b401057ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция для получения суммарной площади всех жилых и нежилых помещений  <a href="flatlib_8cpp.html#a84f04ebe1e94d3cfa48705b401057ded">Подробнее...</a><br /></td></tr>
+<tr class="separator:a84f04ebe1e94d3cfa48705b401057ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb6b75272fd73d358d745f138e3443c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structflatinf.html">flatinf</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flatlib_8cpp.html#aeeb6b75272fd73d358d745f138e3443c">flatsSquareInput</a> ()</td></tr>
+<tr class="memdesc:aeeb6b75272fd73d358d745f138e3443c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция для получения информации о площади каждой квартиры и количества жителей в ней  <a href="flatlib_8cpp.html#aeeb6b75272fd73d358d745f138e3443c">Подробнее...</a><br /></td></tr>
+<tr class="separator:aeeb6b75272fd73d358d745f138e3443c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p >Файл cpp, который отвечает за чтение файла home.txt. </p>
+<dl class="section author"><dt>Автор</dt><dd>Чихичин Станислав Сергеевич </dd></dl>
+<dl class="section version"><dt>Версия</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>Дата</dt><dd>10.01.2022</dd></dl>
+<p>Данный файл содержит функции, которые осуществляют ввод данных из файла home.txt </p>
+</div><h2 class="groupheader">Макросы</h2>
+<a id="af08ec37a8c99d747fb60fa15bc28678b" name="af08ec37a8c99d747fb60fa15bc28678b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08ec37a8c99d747fb60fa15bc28678b">&#9670;&nbsp;</a></span>_CRT_SECURE_NO_WARNINGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _CRT_SECURE_NO_WARNINGS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Функции</h2>
+<a id="a84f04ebe1e94d3cfa48705b401057ded" name="a84f04ebe1e94d3cfa48705b401057ded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84f04ebe1e94d3cfa48705b401057ded">&#9670;&nbsp;</a></span>allSquareInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int allSquareInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция для получения суммарной площади всех жилых и нежилых помещений </p>
+<p >Функция обращается к файлу taxes.txt, пропускает 1 значение flats и собирает информацию о суммарной площади всех жилых и нежилых помещений. </p><dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Имеется</td><td>исключение для s_sum - значение не может быть равным 0 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает переменную s_sum </dd></dl>
+
+</div>
+</div>
+<a id="aeeb6b75272fd73d358d745f138e3443c" name="aeeb6b75272fd73d358d745f138e3443c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeb6b75272fd73d358d745f138e3443c">&#9670;&nbsp;</a></span>flatsSquareInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structflatinf.html">flatinf</a> * flatsSquareInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция для получения информации о площади каждой квартиры и количества жителей в ней </p>
+<p >Функция обращается к файлу taxes.txt, пропускает 2 значения flats и s_sum, собирает информацию о площади каждой квартиры и количества жителей в ней. </p><dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Имеется</td><td>2 исключения для flati[i].sflat - значение не может быть равным 0 и flati[i].ncitizen - значение не может быть равным 0 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает структуру flati </dd></dl>
+
+</div>
+</div>
+<a id="ac7d3b785835ebb853bfd261fa19d9de7" name="ac7d3b785835ebb853bfd261fa19d9de7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7d3b785835ebb853bfd261fa19d9de7">&#9670;&nbsp;</a></span>numberFlatsInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int numberFlatsInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция для получения количества квартир в доме </p>
+<p >Функция обращается к файлу taxes.txt и собирает 1 значение -</p><ul>
+<li>количество квартир в доме. <dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Имеется</td><td>исключение для flats - значение не может быть равным 0 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Возвращает переменную flats </dd></dl>
+</li>
+</ul>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
+</body>
+</html>

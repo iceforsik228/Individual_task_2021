@@ -1,0 +1,4 @@
+<map id="flat.h" name="flat.h">
+<area shape="rect" id="node1" title="Файл h, который отвечает объявление структуры и переменных для хранения информации из файла home...." alt="" coords="19,5,69,32"/>
+<area shape="rect" id="node2" href="$flatlib_8cpp.html" title="Файл cpp, который отвечает за чтение файла home.txt." alt="" coords="5,80,83,107"/>
+</map>
